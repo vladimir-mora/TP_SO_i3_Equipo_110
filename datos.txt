@@ -1,1 +1,4 @@
 
+"Nombre: Vladimir Escalante" 
+"IP: $(hostname -I | awk '{print $1}')" 
+"Hora: $(date '+%Y-%m-%d %H:%M:%S')" 
