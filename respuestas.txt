@@ -1,0 +1,18 @@
+a- ¿Cómo queda el máster después de estos cambios?
+El master queda actualizado con todos los archivos y modificaciones que hicimos en la rama ESCALANTE, incluyendo el archivo beta.txt y los datos agregados por ALFA y GAMMA.
+b-¿Beta pudo ver todos los cambios que se realizaron?
+Si, pude ver todos los cambios
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+git checkout main
+git pull origin main
+git merge ESCALANTE
+git push origin main
+Responde GAMMA:
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+Si, después de hacer los merge y los pull, las ramas quedan actualizadas
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido
+git checkout ESCALANTE
+git pull origin ESCALANTE
+git add beta.txt
+git commit
+git push origin ESCALANTE
