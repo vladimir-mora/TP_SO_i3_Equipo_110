@@ -16,3 +16,12 @@ git pull origin ESCALANTE
 git add beta.txt
 git commit
 git push origin ESCALANTE
+G- git checkout ESCALANTE
+git pull origin ESCALANTE
+echo: "Nombre Apellido: Tomas Fabris:" >> beta.txt
+echo: ifconfig:" >> beta.txt
+ipconfig >> beta.txt
+echo "Hora: 10:39" beta.txt
+git add beta.txt
+git commit -m "Alfa modifica beta.txt"
+git push origin ESCALANTE
